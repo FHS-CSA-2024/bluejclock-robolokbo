@@ -1,0 +1,32 @@
+package src.main.java;
+
+/**
+ * Write a description of class LetterDisplay here.
+ *
+ * @author      Elijah Lakhamsene
+ * @version (a version number or a date)
+ */
+public class LetterDisplay
+{
+    private String timePeriod;
+    
+    public LetterDisplay(String AMPM){
+        timePeriod = AMPM;
+    }
+    
+    public String getTimePeriod(){
+        return timePeriod;
+    }
+    
+    public String setTimePeriod(String otherTimePeriod){
+        String temp;
+        
+        temp = timePeriod;
+        timePeriod = otherTimePeriod;
+        otherTimePeriod = temp;
+        
+        return timePeriod;
+    }
+    
+    public String get
+}
